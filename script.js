@@ -48,7 +48,7 @@ function displayRandomMeal() {
         </div>
         <div class="meal-name">
         <h3>${data.meals[0].strMeal}</h3>
-        <a href="#" class="recipe-btn" id="ourButton" onclick="caller(event)">Items Needed</a>
+        <a href="#" class="recipe-btn" id="ourButton" onclick="caller(event)">Ingredients</a>
         </div>
         </div>`;
       } else html = 'Sorry, server down';
@@ -92,7 +92,7 @@ function getMealList() {
           </div>
           <div class = "meal-name">
           <h3>${meal.strMeal}</h3>
-          <a href = "#" class = "recipe-btn">Items Needed</a>
+          <a href = "#" class = "recipe-btn">Ingrediends</a>
           </div>
           </div>
           `;
